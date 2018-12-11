@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-playground",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha --compilers ts:ts-node/register --exit ./src/**/*.test.ts"
+  },
+  "author": "Mark Feng",
+  "dependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "@types/mongodb": "^3.1.10",
+    "@types/node": "^8.0.20",
+    "@types/ramda": "0.25.24",
+    "chai": "^4.2.0",
+    "debug-trace-fn": "^0.1.1",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.6",
+    "monk": "^6.0.6",
+    "monk-middleware-debug": "^0.2.0",
+    "ramda": "^0.25.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
